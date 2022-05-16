@@ -1,0 +1,40 @@
+# OBJECTIF
+
+Un client souhaite la mise en place d'une boutique
+pour l'exposition publique de ces produits.
+
+# FONCTIONNALITES
+
+[] BACK-OFFICE (./templates/back-office/ et ./back-office/index.php)
+- Mettre a jour le titre et le footer de la boutique. (UPDATE)
+- Ajout d'un produit (INSERT)
+- Mettre a jour un produit (UPDATE)
+- Suppression d'un produit (DELETE)
+
+[] FRONT-OFFICE (./templates/front-office/ et ./index.php)
+- Page "Accueil" qui presente les 10 derniers nouveaux produits ajoutes.
+- Page "Produits" qui presente les 25 produits disponibles.
+- Un formulaire de recherche qui trie seulement via le titre des produits
+- Afficher des produits appartenant a une categorie ou une marque.
+- Page dedie aux informations d'un seul produit.
+- Page "Contact" avec une carte OpenStreetMAP et un formulaire de contact.
+- Page "Panier" pour le recapitulatif des produits choisis et le total en euros.
+
+# ETAPES
+
+Modelisation BDD.
+Collecte des images, des descriptions, des tarifs, ... pour 25 produits.
+Arborescence.
+Back-End (PHP, PDO et TPL).
+Front-End (Bootstrap).
+
+
+
+
+
+
+
+
+
+
+

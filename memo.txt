@@ -1,0 +1,24 @@
+# DOCUMENTATION
+
+https://www.smarty.net/docs/en/
+
+{if},{elseif},{else}
+https://www.smarty.net/docs/en/language.function.if.tpl
+
+{foreach},{foreachelse}
+https://www.smarty.net/docs/en/language.function.foreach.tpl
+
+# INSTALLATION
+
+cd /var/www/html/
+sudo mkdir ./<PROJECT_NAME>/
+sudo chown -R <USERNAME>:<USERNAME> ./<PROJECT_NAME>/
+cd ./<PROJECT_NAME>/
+wget https://github.com/smarty-php/smarty/archive/master.zip
+unzip ./master.zip
+mkdir ./vendor/
+mv ./smarty-master/ ./vendor/smarty/
+mkdir ./caches/
+mkdir ./templates/
+mkdir ./templates_c/
+sudo chown -R www-data:www-data ./templates_c/
